@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: Arial; padding: 20px; background: #f5f5f5; color: #333; }
+    .card { background: white; border-radius: 8px; padding: 20px; box-shadow: 0 0 10px #ccc; }
+    h2 { color: #007bff; }
+    ul { padding-left: 20px; }
+    a.button {
+      display: inline-block; padding: 10px 20px; background: #007bff;
+      color: white; text-decoration: none; border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Hi {{ first_name }},</h2>
+    <p>I came across <strong>{{ domain }}</strong> and really liked your focus on <em>{{ business_focus }}</em>.</p>
+    <p>However, I noticed a few areas where we could help you improve:</p>
+    <ul>
+      {% for point in audit_points %}
+        <li>{{ point }}</li>
+      {% endfor %}
+    </ul>
+    <p>Want to chat about making your website stand out?</p>
+    <a href="https://calendly.com/dave-netwit" class="button">Book a Free Audit</a>
+    <p>– Dave Chatpar, NetWit</p>
+  </div>
+</body>
+</html>

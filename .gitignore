@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Logs and uploads
+logs/
+uploads/
+email_status.db
+*.log
+
+# Node.js
+node_modules/
+build/
+
+# IDE/Editor
+.idea/
+*.iml
+*.xml
+.vscode/
