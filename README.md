@@ -58,7 +58,8 @@ Just upload a list of emails, and NetWit will:
 
 | Upload CSV | Preview Email | Dashboard |
 |------------|----------------|------------|
-| ![upload](https://via.placeholder.com/250x120.png?text=Upload+CSV) | ![preview](https://via.placeholder.com/250x120.png?text=Email+Preview) | ![dashboard](https://via.placeholder.com/250x120.png?text=Analytics+Chart) |
+| ![upload](![image watsapp](https://github.com/user-attachments/assets/0ff04fbe-e83b-4c85-a57a-374296e3af8c)
+) | ![preview](https://via.placeholder.com/250x120.png?text=Email+Preview) | ![dashboard](https://via.placeholder.com/250x120.png?text=Analytics+Chart) |
 
 ---
 
